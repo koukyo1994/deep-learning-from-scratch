@@ -1,6 +1,5 @@
-from typing import Any, Dict, DefaultDict
-
 from collections import defaultdict
+from typing import Any, Dict, DefaultDict
 
 from gridworld import GridWorld
 
