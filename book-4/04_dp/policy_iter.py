@@ -1,6 +1,5 @@
 import argparse
 from collections import defaultdict
-from sre_parse import State
 from typing import Dict, DefaultDict, Tuple
 
 import numpy as np
