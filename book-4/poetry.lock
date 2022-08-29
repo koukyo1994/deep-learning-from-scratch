@@ -15,6 +15,17 @@ optional = false
 python-versions = ">=3.6"
 
 [[package]]
+name = "dezero"
+version = "0.0.13"
+description = "Deep Learning Framework from Zero"
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.dependencies]
+numpy = "*"
+
+[[package]]
 name = "fonttools"
 version = "4.34.4"
 description = "Tools to manipulate font files"
@@ -179,7 +190,7 @@ telegram = ["requests"]
 [metadata]
 lock-version = "1.1"
 python-versions = "3.8.*"
-content-hash = "3f093e7b6d7067c333cb5b4fb3b9d1fbfdac2b5f17274e04ddc062180a9e6e61"
+content-hash = "aaa5624fddbfd6d303564fdbbced96f2fc31d08a64ad1e3900d34ebc22c75e32"
 
 [metadata.files]
 colorama = []
@@ -187,6 +198,7 @@ cycler = [
     {file = "cycler-0.11.0-py3-none-any.whl", hash = "sha256:3a27e95f763a428a739d2add979fa7494c912a32c17c4c38c4d5f082cad165a3"},
     {file = "cycler-0.11.0.tar.gz", hash = "sha256:9c87405839a19696e837b3b818fed3f5f69f16f1eec1a1ad77e043dcea9c772f"},
 ]
+dezero = []
 fonttools = []
 kiwisolver = []
 matplotlib = []
