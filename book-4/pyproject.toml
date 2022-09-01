@@ -11,7 +11,7 @@ matplotlib = "^3.5.3"
 scipy = "^1.9.0"
 tqdm = "^4.64.0"
 dezero = "^0.0.13"
-gym = "^0.25.2"
+gym = {extras = ["classic_control"], version = "^0.25.2"}
 
 [tool.poetry.dev-dependencies]
 
