@@ -12,6 +12,7 @@ scipy = "^1.9.0"
 tqdm = "^4.64.0"
 dezero = "^0.0.13"
 gym = {version = "0.25.2", extras = ["accept-rom-license", "atari"]}
+opencv-python = "^4.6.0"
 
 [tool.poetry.dev-dependencies]
 
